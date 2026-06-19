@@ -6,7 +6,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import { detectFoodFromImage } from "./services/roboflow.js";
-import { getNutritionData } from ".src/services/usda.js";
+import { getNutritionData } from "./services/usda.js";
 dotenv.config();
 
 console.log(
