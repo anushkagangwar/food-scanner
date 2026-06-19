@@ -5,8 +5,8 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import { detectFoodFromImage } from "../src/services/roboflow.js";
-import { getNutritionData } from "../src/services/usda.js";
+import { detectFoodFromImage } from "./services/roboflow.js";
+import { getNutritionData } from ".src/services/usda.js";
 dotenv.config();
 
 console.log(
