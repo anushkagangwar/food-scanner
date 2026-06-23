@@ -45,6 +45,9 @@ export const detectFoodFromImage = async (
       response.data
     );
 
+console.log("Response Data:");
+console.log(JSON.stringify(response.data, null, 2));
+
     const predictions =
       response.data.predictions;
 
